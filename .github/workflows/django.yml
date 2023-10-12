@@ -42,4 +42,4 @@ jobs:
             key: ${{ secrets.SSHKEY }}
             script: |
                 cd /var/www/merge
-                /deploy.sh
+                ./deploy.sh
