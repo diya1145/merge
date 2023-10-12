@@ -47,7 +47,10 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'rest_framework',
     'corsheaders',
+    'crispy_bootstrap4'
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
