@@ -27,7 +27,7 @@ echo "Virtual env 'mb' Deactivated !"
 
 # Reloading Application So New Changes could reflect on website
 pushd miniblog
-touch wsgi.py
+# touch wsgi.py
 popd
 
 echo "Deployment Finished!"
